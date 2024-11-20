@@ -5,7 +5,7 @@ using namespace std;
 
 double func(double x)
 {
-    return pow(x, 3) - x - 1;
+    return 2*pow(x, 3) -2* x - 5;
 }
 int main()
 {

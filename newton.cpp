@@ -2,11 +2,11 @@
 using namespace std;
 double f(double x)
 {
-    return (2 * (pow(x, 3))) - 3;
+    return (x*x*x)-x-1;
 }
 double df(double x)
 {
-    return 6 * x * x;
+    return (3* x * x)-1;
 }
 int main()
 {
